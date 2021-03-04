@@ -4,7 +4,11 @@ function App() {
 	return (
 		<div className="App">
 			<header className="App-header">
-				<h2>Ip Address Locator</h2>
+				<h2>IP Address Tracker</h2>
+				<input
+					type="text"
+					placeholder="Search for any IP Address or Domain"
+				></input>
 			</header>
 		</div>
 	);
